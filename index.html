@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- External CSS -->
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <title>Sorting Visualizer !</title>
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="container">
+        <div class="bars-canvas">
+        </div>
+        <div class="input-sort-and-shuffle-button"> 
+            <select name="" id="select" onchange="selectedOption()">
+                <option value="0">Select</option>
+                <option value="1">Bubble Sort</option>
+                <option value="2">Selection Sort</option>
+                <option value="3">Insertion Sort</option>
+                <option value="4">Merge Sort</option>
+                <option value="5">Quick Sort</option>
+                <option value="6">Heap Sort</option>
+            </select>
+            <button class="sort" onclick="sort()">
+                Sort
+            </button>
+            <button class="shuffle" onclick="refresh()">
+                Shuffle
+            </button>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <a href="http://www.github.com/madhuredra/sorting-visualizer" target="_blank" rel="noopener noreferrer">
+            Madhurendra Nath Tiwari
+        </a>
+        <span class="footer_span">
+            
+        </span>
+    </div>
+    <!-- Exteranl Script -->
+    <script src="scripts.js"></script>
+</body>
+</html>

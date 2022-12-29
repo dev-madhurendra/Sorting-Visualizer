@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    max-height: 100vh;
+}
+body{
+    background-color: #1b1d36;
+    font-family: "Roboto Mono", "Roboto Mono", "Vazirmatn";
+    color: #99d6ea;
+    overflow-x: hidden;
+    /* overflow: hidden; */
+}
+
+.bars-canvas{
+    /* background-color: red; */
+    height: 80vh;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.input-sort-and-shuffle-button{
+    height: 20vh;
+    margin: auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.input-sort-and-shuffle-button select{
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #99d6ea;
+}
+.input-sort-and-shuffle-button select  option{
+ background-color: #1b1d36;
+}
+.sort,.shuffle{
+    outline:none;
+    cursor: pointer;
+    background-color: transparent;
+    color: #99d6ea;
+    height: 40px;
+    border-radius: 5%;
+    border: 1px solid wheat;
+}
+
+
+/* Char Bar Design */
+.bar{
+    width: 10px;
+    /* height: 100px; */
+    background-color: #99d6ea;
+}
+.footer{
+    margin-top: -2vw;
+    text-align: center;
+
+}
+.footer a{
+    text-decoration: none;
+    color: #99d6ea;
+    
+}
