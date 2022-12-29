@@ -10,12 +10,12 @@
 I have made this using HTML , CSS , JS.
 I learned much while developing this project i implement 6 sorting algorithms 
 
-1.Bubble Sort
-2.Insertion Sort
-3.Selection Sort
-4.Merge Sort
-5.Heap Sort
-6.Quick Sort
+1.Bubble Sort</br>
+2.Insertion Sort</br>
+3.Selection Sort</br>
+4.Merge Sort</br>
+5.Heap Sort</br>
+6.Quick Sort</br>
 
 I applied all my programming logic i have learnt so far.
 
